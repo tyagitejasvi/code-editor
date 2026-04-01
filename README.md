@@ -2,8 +2,6 @@
 
 A modern, responsive code editor for writing and testing HTML, CSS & JavaScript code in real-time.
 
-![ProCode Editor](https://img.shields.io/badge/Status-Live-brightgreen) ![Version](https://img.shields.io/badge/Version-1.0-blue)
-
 ## 🌟 Features
 
 ✨ **Live Preview** - See your code changes instantly in real-time  
@@ -84,7 +82,7 @@ document.getElementById('myBtn').addEventListener('click', () => {
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/code-editor.git
+   git clone https://github.com/tyagitejasvi/code-editor.git
    cd code-editor
    ```
 
@@ -93,13 +91,6 @@ document.getElementById('myBtn').addEventListener('click', () => {
    - Use a local server (recommended for better functionality)
 
 3. **Start coding!** 🎉
-
-## 🌐 Browser Support
-
-- ✅ Chrome 70+
-- ✅ Firefox 65+
-- ✅ Safari 12+
-- ✅ Edge 79+
 
 ## 🤝 Contributing
 
@@ -112,8 +103,8 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **Your Name**  
-- GitHub: [tyagitejasvi](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [tyagitejasvi](https://github.com/tyagitejasvi)
+- 
 
 ---
 
