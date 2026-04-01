@@ -39,7 +39,7 @@ A modern, responsive code editor for writing and testing HTML, CSS & JavaScript 
 ```
 code-editor/
 ├── index.html    # Main HTML file
-├── style.css     # Styling and themes
+├── d.css     # Styling and themes
 ├── app.js            # JavaScript functionality
 └── README.md         # Project documentation
 ```
