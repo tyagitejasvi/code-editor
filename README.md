@@ -15,7 +15,7 @@ A modern, responsive code editor for writing and testing HTML, CSS & JavaScript 
 
 ## 🚀 Live Demo
 
-🔗 **[Open Live Demo](https://tyagitejasvi.github.io/code-editor)**
+🔗 **[Open Live Demo](https://tyagitejasvi.github.io/code_editor)**
 
 
 ## 📖 How to Use
@@ -109,4 +109,4 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 ⭐ **Star this repo** if you found it helpful!  
-🔗 **Live Demo:** https://tyagitejasvi.github.io/code-editor
+🔗 **Live Demo:** https://tyagitejasvi.github.io/code_editor
