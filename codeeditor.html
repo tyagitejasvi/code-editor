@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProCode Editor</title>
+    <link rel="stylesheet" href="codeeditor.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="header">
+        <div class="header-left">
+            <h1><i class='bx bx-code-alt'></i> ProCode Editor</h1>
+            <span class="subtitle">Write, Run & Test Code in Real-time</span>
+        </div>
+        <div class="header-right">
+            <button class="btn btn-secondary" id="clearAll" title="Clear All Code (Ctrl+Shift+L)">
+                <i class='bx bxs-trash'></i> Clear All
+            </button>
+            <button class="btn btn-secondary" id="downloadBtn" title="Download Code">
+                <i class='bx bxs-download'></i> Download
+            </button>
+            <button class="btn btn-secondary" id="undoBtn" title="Undo Changes">
+                <i class='bx bx-undo'></i> Undo
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Left Panel - Code Editors -->
+        <div class="left">
+            <!-- HTML Editor -->
+            <div class="editor-section">
+                <div class="editor-header">
+                    <label class="editor-label">
+                        <i class='bx bxl-html5'></i> HTML
+                    </label>
+                    <span class="char-count" id="html-count">0 chars</span>
+                </div>
+                <textarea 
+                    id="html-code" 
+                    class="editor-textarea"
+                    placeholder="&lt;!DOCTYPE html&gt;&#10;&lt;html&gt;&#10;&lt;body&gt;&#10;  &lt;h1&gt;Hello World&lt;/h1&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;"
+                    spellcheck="false"
+                ></textarea>
+            </div>
+
+            <!-- CSS Editor -->
+            <div class="editor-section">
+                <div class="editor-header">
+                    <label class="editor-label">
+                        <i class='bx bxl-css3'></i> CSS
+                    </label>
+                    <span class="char-count" id="css-count">0 chars</span>
+                </div>
+                <textarea 
+                    id="css-code" 
+                    class="editor-textarea"
+                    placeholder="body {&#10;  font-family: Arial, sans-serif;&#10;  background: #f0f0f0;&#10;}"
+                    spellcheck="false"
+                ></textarea>
+            </div>
+
+            <!-- JavaScript Editor -->
+            <div class="editor-section">
+                <div class="editor-header">
+                    <label class="editor-label">
+                        <i class='bx bxl-javascript'></i> JavaScript
+                    </label>
+                    <span class="char-count" id="js-count">0 chars</span>
+                </div>
+                <textarea 
+                    id="js-code" 
+                    class="editor-textarea"
+                    placeholder="console.log('Hello from JavaScript!');"
+                    spellcheck="false"
+                ></textarea>
+            </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="divider"></div>
+        
+        <!-- Right Panel - Output -->
+        <div class="right">
+            <div class="output-header">
+                <label class="output-label">
+                    <i class='bx bx-play-circle'></i> Live Output
+                </label>
+                <span class="status-badge" id="status">Ready</span>
+            </div>
+            <div class="output-container">
+                <iframe id="output" class="output-iframe" title="Output Preview"></iframe>
+            </div>
+        </div>     
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
